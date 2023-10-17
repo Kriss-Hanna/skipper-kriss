@@ -1,23 +1,22 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import InspectionsDetails from "./components/InspectionsDetails";
+
 import inspectionData from "../InspectionData.json";
 
-const inspections = inspectionData.inspections;
-
-console.log(inspections);
-
-function App() {
+const App = () => {
   return (
     <>
       <h1>Skipper Inspections</h1>
-
-      <ul>
-        {inspections.map((inspection) => (
-          <li key={inspection.name}>
-            <h2>{inspection.name}</h2>
-          </li>
-        ))}
-      </ul>
+      <Routes>
+        <Route path="/" element={<Home inspectionData={inspectionData} />} />
+        <Route
+          path="/inspections/:id"
+          element={<InspectionsDetails inspectionData={inspectionData} />}
+        />
+      </Routes>
     </>
   );
-}
+};
 
 export default App;
