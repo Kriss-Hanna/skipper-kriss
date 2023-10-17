@@ -4,20 +4,21 @@
   box-sizing: border-box;
 }
 
-/* Pour le fond de la page */
+/* Background body */
 body {
-  background-color: #f2f2f2;
+  background: linear-gradient(to bottom, #f2f2f2, #87CEEB) no-repeat;
+  height: 100vh;
 }
 
-/* Style du titre */
+/* Title */
 h1 {
-  color: #333;
+  color: #63a8dc;
   text-align: center;
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
-/* Style de la liste */
+/* List style */
 ul {
   list-style: none;
   padding: 0;
@@ -39,7 +40,7 @@ li:hover {
   background-color: #f9f9f9;
 }
 
-/* Style du lien */
+/* Link style */
 a {
   text-decoration: none;
   color: #333;
@@ -48,29 +49,36 @@ a {
 
 /******* Page inspectionDétails *******/
 
-/* Bouton de retour */
+/* Button Back to Home */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 button {
-  background-color: #007bff;
-  color: white;
+  background-color: #87CEEB;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  margin-bottom: 20px;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+  color: whitesmoke;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: white;
+  border: black solid 1px;
+  color: #87CEEB;
 }
 
-/* Titre de l'inspection */
+/* Details Infos styles */
 h2 {
-  color: #333;
+  color: #63a8dc;
   text-align: center;
   font-size: 2em;
   margin-bottom: 10px;
 }
 
-/* Détails de l'inspection */
 p {
   background-color: #fff;
   padding: 10px;

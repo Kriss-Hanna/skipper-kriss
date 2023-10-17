@@ -8,11 +8,9 @@ function Home({ inspectionData }) {
     <>
       <ul>
         {inspections.map((inspection) => (
-          <li key={inspection.name}>
-            <Link to={`/inspections/${inspection.name}`}>
-              {inspection.name}
-            </Link>
-          </li>
+          <Link to={`/inspections/${inspection.name}`} key={inspection.name}>
+            <li>{inspection.name}</li>
+          </Link>
         ))}
       </ul>
     </>

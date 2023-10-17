@@ -21,17 +21,22 @@ const InspectionsDetails = ({ inspectionData }) => {
 
   return (
     <>
-      <button>
-        <Link to="/">Back to home</Link>
-      </button>
-      <h2>{name}</h2>
-      <p>{installationType}</p>
-      <p>{constructionYear}</p>
-      <p>{company}</p>
-      <p>{type}</p>
-      <p>{diameter}</p>
-      <p>{material}</p>
-      <p>{coating}</p>
+      <div className="button-container">
+        <Link to="/">
+          <button>Back to home</button>
+        </Link>
+      </div>
+
+      <div className="details-infos">
+        <h2>{name}</h2>
+        <p>Type of installation: {installationType}</p>
+        <p>Year of construction: {constructionYear}</p>
+        <p>Company: {company}</p>
+        <p>Type: {type}</p>
+        <p>Diameter: {diameter}</p>
+        <p>Material: {material}</p>
+        <p>Coating: {coating}</p>
+      </div>
     </>
   );
 };
