@@ -1,6 +1,6 @@
 # Skipper Test
 
-## Prérequis
+## Prerequisites
 
 - Node.js
 - npm
@@ -8,57 +8,56 @@
 
 ## Installation
 
-**Clonez le dépôt :**
+**Clone the repository:**
 
 \`\`\`
-git clone https://github.com/ton_username/ton_projet.git
+git clone https://github.com/Kriss-Hanna/skipper-kriss.git
 \`\`\`
 
-**Naviguez dans le dossier du projet :**
+**Navigate into the project directory:**
 
 \`\`\`
 cd ton_projet
 \`\`\`
 
-**Installez les dépendances :**
+**Install dependencies:**
 
 \`\`\`
 npm install or yarn
 \`\`\`
 
-## Développement local
+## Local Development
 
-**Lancez le serveur de développement :**
+**Start the development server:**
 
 \`\`\`
 npm run dev or yarn run dev
 \`\`\`
 
-L'application devrait s'ouvrir dans votre navigateur à `http://localhost:5173/`.
+The application should open in your browser at `http://localhost:5173/`.
 
 ## Tests
 
-**Pour exécuter les tests unitaires :**
+**To run unit tests:**
 
 \`\`\`
 npm test or yarn test
 \`\`\`
 
-## Déploiement
+## Deployment
 
-### Sur un serveur
+### On a Server
 
-**Générez la version de production :**
+**Build the production version:**
 
 \`\`\`
 npm run build or yarn run build
 \`\`\`
 
-Copiez les fichiers du dossier `build` sur votre serveur web.
+Copy the files from the `build` folder to your web server.
 
-### Sur Vercel ou Netlify
+### On Vercel or Netlify
 
-1. Connectez votre dépôt GitHub.
-2. Suivez les instructions pour déployer une application React.
-3. Configurez les variables d'environnement si nécessaire.
-
+1. Connect your GitHub repository.
+2. Follow the instructions for deploying a React application.
+3. Configure environment variables if needed.
