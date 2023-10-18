@@ -6,13 +6,13 @@
 
 /* Background body */
 body {
-  background: linear-gradient(to bottom, #f2f2f2, #87CEEB) no-repeat;
+  background: linear-gradient(to bottom, #f2f2f2, #f72c2c) no-repeat;
   height: 100vh;
 }
 
 /* Title */
 h1 {
-  color: #63a8dc;
+  color: #f72c2c;
   text-align: center;
   font-size: 2.5em;
   margin: 2.5rem 0;
@@ -46,8 +46,7 @@ a {
   color: #333;
 }
 
-
-/******* Page inspectionDétails *******/
+/******* Page inspectionDetails *******/
 
 /* Button Back to Home */
 .button-container {
@@ -56,7 +55,7 @@ a {
 }
 
 button {
-  background-color: #87CEEB;
+  background-color: #f72c2c;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -69,16 +68,15 @@ button {
 button:hover {
   background-color: white;
   border: black solid 1px;
-  color: #87CEEB;
+  color: #f72c2c;
 }
 
 /* Details Infos styles */
 h2 {
-  color: #63a8dc;
+  color: #f87474;
   text-align: center;
   font-size: 2em;
   margin-bottom: 1.5rem;
-
 }
 
 p {
@@ -111,6 +109,5 @@ p {
   h2 {
     font-size: 1.2rem;
     margin: 1.2rem 0;
-  }
-  
+  }  
 }
