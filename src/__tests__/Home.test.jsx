@@ -4,7 +4,7 @@ import { MemoryRouter } from "react-router-dom";
 import Home from "../components/Home";
 import "@testing-library/jest-dom";
 
-test("affiche une liste d’inspections", () => {
+test("show a list of inspections ", () => {
   const mockData = {
     inspections: [
       { name: "Inspection 1" },
