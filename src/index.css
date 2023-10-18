@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,8 @@
 body {
   background: linear-gradient(to bottom, #f2f2f2, #f72c2c) no-repeat;
   height: 100vh;
+  font-family: "Buda", sans-serif;
+  font-size: 1.25rem;
 }
 
 /* Title */
