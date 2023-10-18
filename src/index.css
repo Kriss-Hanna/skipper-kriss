@@ -8,15 +8,15 @@
 
 /* Background body */
 body {
-  background: linear-gradient(to bottom, #f2f2f2, #f72c2c) no-repeat;
+  background: linear-gradient(to bottom, #f2f2f2, #47BBBC) no-repeat;
   height: 100vh;
-  font-family: "Buda", sans-serif;
+  font-family: 'open sans';
   font-size: 1.25rem;
 }
 
 /* Title */
 h1 {
-  color: #f72c2c;
+  color: #47BBBC;
   text-align: center;
   font-size: 2.5em;
   margin: 2.5rem 0;
@@ -59,7 +59,7 @@ a {
 }
 
 button {
-  background-color: #f72c2c;
+  background-color: #47BBBC;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -72,12 +72,12 @@ button {
 button:hover {
   background-color: white;
   border: black solid 1px;
-  color: #f72c2c;
+  color: #47BBBC;
 }
 
 /* Details Infos styles */
 h2 {
-  color: #f87474;
+  color: #47BBBC;
   text-align: center;
   font-size: 2em;
   margin-bottom: 1.5rem;
